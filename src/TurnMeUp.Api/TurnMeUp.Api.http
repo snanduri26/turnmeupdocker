@@ -1,0 +1,6 @@
+@TurnMeUp.Api_HostAddress = http://localhost:5290
+
+GET {{TurnMeUp.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
