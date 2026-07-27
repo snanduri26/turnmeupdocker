@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnMeUp.Api.Tests", "tests\TurnMeUp.Api.Tests\TurnMeUp.Api.Tests.csproj", "{37B6169E-E673-4AF5-9E89-CD3D27E2CBC0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,5 +99,8 @@ Global
 		{EA0236B7-AFB1-46AF-AE82-7F81ED333D74} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{F3263994-1FC9-4D2C-9AD2-2C1617701F44} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{37B6169E-E673-4AF5-9E89-CD3D27E2CBC0} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AECBCBED-49EF-43E2-BE9F-A40EF8C88D61}
 	EndGlobalSection
 EndGlobal

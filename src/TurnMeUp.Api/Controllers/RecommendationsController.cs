@@ -27,9 +27,12 @@ namespace TurnMeUp.Api.Controllers
         {
             var recomById = recommendations.Find(r => r.id == id);
             if (recomById != null)
-                return Ok(recommendations.FirstOrDefault(recomById));
+                return Ok(recomById);
             else
-                return Ok("Cannot find a recommendation with that id, please select another id");
+                return NotFound(new
+                {
+                    Message = $"Recommendation with id {id} was not found."
+                });
         }
     }
 }
