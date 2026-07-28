@@ -20,9 +20,9 @@ namespace TurnMeUp.Api.Controllers
         {
             var serviceInfo = new ServiceInfo
             {
-                service = "Turn Me Up",
+                service = "Turn Me Up v2-new",
                 environment = "Development",
-                version = "v1",
+                version = "v2 - new",
                 runtime = ".NET 9.0",
                 region = "Local Docker"
             };
@@ -30,20 +30,7 @@ namespace TurnMeUp.Api.Controllers
             return Ok(serviceInfo);
         }
 
-        [HttpGet("v2/info")]
-        public IActionResult GetServiceInfov2()
-        {
-            var serviceInfo = new ServiceInfo
-            {
-                service = "Turn Me Up v2",
-                environment = "Development",
-                version = "v2",
-                runtime = ".NET 9.0",
-                region = "Local Docker"
-            };
-
-            return Ok(serviceInfo);
-        }
+        
 
 
     }
