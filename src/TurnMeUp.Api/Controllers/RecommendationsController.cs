@@ -14,7 +14,10 @@ namespace TurnMeUp.Api.Controllers
             new Recommendations { id = 2, artist = "Lana Del Rey", song = "Lust for life", genre = "Pop" },
             new Recommendations { id = 3, artist = "Dua Lipa", song = "Levitating", genre = "Pop" },
             new Recommendations { id = 4, artist = "Imagine Dragons", song = "Bones", genre = "Punk Rock" },
-            new Recommendations { id = 5, artist = "The Weeknd", song = "Can't feel my face", genre = "Pop" }
+            new Recommendations { id = 5, artist = "The Weeknd", song = "Can't feel my face", genre = "Pop" },
+            new Recommendations { id = 6, artist = "The Weeknd", song = "Blinding Lights", genre = "Synth Pop" },
+            new Recommendations { id = 7, artist = "Sabrina Carpenter", song = "Espresso", genre = "Pop" },
+            new Recommendations { id = 8, artist = "Sabrina Carpenter", song = "Please please please...", genre = "Pop" }
         };
         [HttpGet("recommendations")]
         public IActionResult GetRecommendations()
